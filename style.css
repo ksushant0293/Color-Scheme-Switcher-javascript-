@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.rainbox-col {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
