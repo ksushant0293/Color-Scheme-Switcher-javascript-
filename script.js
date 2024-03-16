@@ -28,5 +28,8 @@ rainbow.forEach((button) => {
         if(e.target.style.backgroundColor === "violet"){
             body.style.backgroundColor = e.target.style.backgroundColor;
         }
+        if(e.target.style.backgroundColor === "white"){
+            body.style.backgroundColor = e.target.style.backgroundColor;
+        }
     });
 });
